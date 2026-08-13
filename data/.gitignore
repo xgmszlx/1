@@ -1,0 +1,4 @@
+openloris/*.bag
+openloris/*.bag.orig
+openloris/*.db
+openloris/*.db-journal

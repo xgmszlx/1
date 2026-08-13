@@ -1,0 +1,32 @@
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+
+# Raw or derived OpenLORIS data (CC BY-ND 4.0; do not redistribute here)
+data/openloris/*.bag*
+data/openloris/*.db*
+data/openloris/*.tar
+experiments/openloris_health/results/*-health.csv
+experiments/openloris_health/results/*-labeled*.csv
+experiments/openloris_health/results/cafe1-1-model-gate.*
+experiments/openloris_health/results/cafe1-1-window-model-gate.*
+
+# Scratch material and local rendered artifacts
+tmp/
+output/
+
+# Locally inspected repositories; two reproducibility dependencies are tracked
+# explicitly as submodules despite this broad ignore rule.
+projects/Active-SLAM-Paper-List/
+projects/FIT-SLAM/
+projects/frontier_exploration_ros2/
+projects/rtabmap_ros/
+projects/slam_toolbox/
+
+# Intermediate synthetic runs; retain the frozen budgeted result only.
+experiments/minimal_closed_loop/results/
+experiments/minimal_closed_loop/results_gated/
+experiments/minimal_closed_loop/results_smoke*/

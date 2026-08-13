@@ -1,0 +1,6 @@
+[submodule "projects/autonomous-exploration-demo-benchmark"]
+	path = projects/autonomous-exploration-demo-benchmark
+	url = https://github.com/mertgulerx/autonomous-exploration-demo-benchmark.git
+[submodule "projects/openloris-scene-tools"]
+	path = projects/openloris-scene-tools
+	url = https://github.com/lifelong-robotic-vision/openloris-scene-tools.git
